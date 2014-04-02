@@ -1,0 +1,23 @@
+<!--<div class="film-images">
+  <img ng-src="{{img}}"
+       class="film"
+       ng-repeat="img in film.images"
+       ng-class="{active: mainImageUrl==img}">
+</div>-->
+
+<div ng-repeat="chapter in film" ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+    <h1>{{film.filmname}}</h1>
+    <h4>{{film.name}}</h4>
+    <p>{{film.text}}</p>
+</div>
+
+<!--<ul class="film-thumbs">
+  <li ng-repeat="img in film.images">
+    <img ng-src="{{img}}" ng-click="setImage(img)">
+  </li>
+</ul>-->
+
+<!-- ex
+{{phone.battery.standbyTime}}
+-->
+

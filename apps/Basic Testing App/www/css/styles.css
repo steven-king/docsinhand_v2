@@ -1,0 +1,54 @@
+.title{
+    text-align: center;
+}
+.hiddenButtons{
+    visibility: hidden;
+    height: 0px;
+}
+.twitterUser{
+    text-decoration: none;
+}
+.time{
+    font-size: 11px;
+}
+.tab-item .icon {
+display: block;
+margin: 0 auto;
+height: 100%;
+font-size: 32px;
+}
+.item h2 {
+margin: 0 0 4px 0;
+font-size: 16px;
+padding: 0 0 3px 0;
+}
+.item-body p {
+margin-top: 0px; 
+margin-bottom: 0px; 
+}
+.flickerplate ul.flicks li .flick-sub {
+padding: 0 20px;
+font-weight: 300;
+line-height: 2em;
+color: #000;
+text-align: left;
+height: 100%;
+}
+.sidr ul li {
+display: block;
+margin: 0;
+line-height: 41px;
+border-top: 1px solid #4d4d4d;
+border-bottom: 1px solid #1a1a1a;
+height: 43px;
+}
+.navListItem{
+    background-color: #333333 !important;
+}
+.navItems{
+    margin-left: 20px;
+}
+img{
+        width:100%;
+        height:100%;
+      }

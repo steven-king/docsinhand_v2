@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" ng-app="docsHandApp">
+    <head>
+        <meta charset="utf-8">
+            
+            <!-- cordova meta -->
+            <meta name="format-detection" content="telephone=no" />
+            <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+            <!-- end cordova meta -->
+            
+            <title>Docs in Hand</title>
+            <script>document.write('<base href="' + document.location + '" />');</script>
+            <link rel="stylesheet" href="lib/css/ionic.css">
+            <link rel="stylesheet" href="css/styles.css">
+            <link href="lib/css/flickerplate.css"  type="text/css" rel="stylesheet">
+            <link href="css/jquery.sidr.dark.css"  type="text/css" rel="stylesheet">
+                    
+            <!-- scripts for audio detection and cordova/phonegap -->
+            <script type="text/javascript" src="js/cordova-2.2.0.js"></script>
+            <script type="text/javascript" src="js/CDVPitchDetection.js"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+            
+            <script src="lib/jquery/jquery-1.10.2.js"></script>
+            <script src="lib/angular/angular.js"></script>
+            <script src="lib/angular/angular-route.js"></script>
+            <script src="lib/js/angular/angular-sanitize.js"></script>
+            <script src="lib/js/angular-ui/angular-ui-router.js"></script>
+            <script src="lib/jquery/min/modernizr-custom-v2.7.1.min.js" type="text/javascript"></script>
+            <script src="lib/jquery/min/jquery-finger-v0.1.0.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="js/jquery.sidr.js"></script>
+            
+            
+        
+            <!--Include flickerplate-->
+            <script src="lib/jquery/min/flickerplate.min.js" type="text/javascript"></script>
+            
+            
+            <script src="js/app.js"></script>
+            
+            <script type="text/javascript">
+                app.initialize();
+            </script>        
+                    
+    </head>
+    
+    <body>
+
+      <div ng-app="docsHandApp">
+        <div ng-controller="FilmListCtrl" id="FlimListCtrl-div">
+        
+        <div class="bar bar-header bar-dark">
+          <a id="simple-menu" href="#sidr" style="float:left; width:40px;" class="button button-icon icon ion-navicon"></a>
+          <h1 class="title">Documentary Title</h1>
+        </div>
+ 
+        <div id="sidr">
+          <!-- Your content -->
+          <ul>
+            <li><a class="item navListItem item-icon-left" href="#"><i class="icon ion-home"></i><span class="navItems">Film Home</span></a></li>
+            <li><a class="item navListItem item-icon-left" href="#/filmSelect"><i class="icon ion-film-marker"></i><span class="navItems">Film Select</span></a></li>
+            
+            <li><a class="item navListItem item-icon-left" href="#/twitter"><i class="icon ion-social-twitter"></i><span class="navItems">Twitter</span></a></li>
+            <li><a class="item navListItem item-icon-left" href="http://thecoalwar.com/"><i class="icon ion-social-facebook"></i><span class="navItems">Facebook</span></a></li>
+            
+            <li><a class="item navListItem item-icon-left" href="#/about"><i class="icon ion-information"></i><span class="navItems">About App</span></a></li>
+            <li><a class="item navListItem item-icon-left" href="#/help"><i class="icon ion-help"></i><span class="navItems">Help</span></a></li>
+          </ul>
+        </div>
+
+        <!--<a type="button" href="#" class="button"><i class="icon ion-load-c"></i></a>-->
+            
+        <div ng-view class="view-frame"></div>
+        
+        <div class="view-container"></div>
+        
+        </div>
+      </div>
+        
+    </body>
+    <script type="text/javascript" src="js/jquery.gridalicious.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jstwitter.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#simple-menu').sidr();
+    });
+    
+    </script>
+    
+</html>

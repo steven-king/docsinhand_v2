@@ -1,0 +1,56 @@
+[
+{
+    "id": "ch-1",
+    "num": 1,
+    "name": "Ch 1 Name", 
+    "text": "Some text about orange clocks", 
+    "images": [
+        "img/phones/dell-streak-7.0.jpg"
+        ]
+    }, 
+{
+    "id": "thousand-cuts-2",
+    "num": 2,
+    "name": "Ch 2 Name", 
+    "text": "Located near the border of California and Nevada, in the Great Basin, east of the Sierra Nevada mountains, Death Valley constitutes much of Death Valley National Park and is the principal feature of the Mojave and Colorado Deserts Biosphere Reserve. It is located mostly in Inyo County, California.", 
+    "images": [
+        "img/phones/dell-streak-7.0.jpg"
+        ]
+    },
+    {
+    "id": "thousand-cuts-3",
+    "num": 3,
+    "name": "Ch 3 Name", 
+    "text": "It runs from north to south between the Amargosa Range on the east and the Panamint Range on the west; the Sylvania Mountains and the Owlshead Mountains form its northern and southern boundaries, respectively. It has an area of about 3,000 sq mi (7,800 km2).[5] The highest point in Death Valley itself is Telescope Peak in the Panamint Range, which has an elevation of 11,043 feet (3,366 m).", 
+    "images": [
+        "img/phones/dell-streak-7.0.jpg"
+        ]
+    },
+    {
+    "id": "thousand-cuts-4",
+    "num": 4,
+    "name": "Ch 4 Name", 
+    "text": "Death Valley is one of the best geological examples of a basin and range configuration. It lies at the southern end of a geological trough known as Walker Lane, which runs north into Oregon. The valley is bisected by a right lateral strike slip fault system, represented by the Death Valley Fault and the Furnace Creek Fault. The eastern end of the left lateral Garlock Fault intersects the Death Valley Fault. Furnace Creek and the Amargosa River flow through the valley but eventually disappear into the sands of the valley floor.", 
+    "images": [
+        "img/phones/dell-streak-7.0.jpg"
+        ]
+    },
+    {
+    "id": "thousand-cuts-5",
+    "num": 5,
+    "name": "Ch 5 Name", 
+    "text": "Death Valley also contains salt pans. According to current geological consensus, during the middle of the Pleistocene era there was a succession of inland seas (collectively referred to as Lake Manly) located where Death Valley is today. ", 
+    "images": [
+        "img/phones/dell-streak-7.0.jpg"
+        ]
+    },
+    {
+    "id": "thousand-cuts-6",
+    "num": 6,
+    "name": "Ch 6 Name", 
+    "text": "As the area turned to desert the water evaporated, leaving behind the abundance of evaporitic salts such as common sodium salts and borax, which were subsequently exploited during the modern history of the region, primarily 1883 to 1907.", 
+    "images": [
+        "img/phones/dell-streak-7.0.jpg"
+        ]
+    }
+]

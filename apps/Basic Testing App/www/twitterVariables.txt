@@ -1,0 +1,19 @@
+.entities
+	.hashtags
+		[object]
+			.text
+
+	.urls
+	.user_mentions
+.favorite_count
+.geo
+.possibly_sensitive
+.retweet_count
+.retweeted
+.text
+.created_at
+.user
+	.name
+	.profile_image_url
+
+
