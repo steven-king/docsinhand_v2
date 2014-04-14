@@ -49,7 +49,7 @@ var app = {
                     title = post.title;
                     content = post.content;
                     //id = i;
-                    $('.slides').append('<li class="scroll" id='+ i +'><div class="flick-title">'+ title +'</div><div class="flick-sub">'+ content +'</div></li>');
+                    $('.slides').append('<li class="scroll" id='+ i +'><div class="flick-title">'+ title +'</div><hr><div class="flick-sub">'+ content +'</div></li>');
                     $('.button-bar-b').append('<a class="button" id='+ i +'>'+ i +'</a>');
                 });
             };

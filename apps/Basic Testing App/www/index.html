@@ -57,10 +57,10 @@
         <div id="sidr">
           <!-- Your content -->
           <ul>
-            <li><a class="item navListItem item-icon-left" href="#"><i class="icon ion-home"></i><span class="navItems">Film Home</span></a></li>
-            <li><a class="item navListItem item-icon-left" href="#/filmSelect"><i class="icon ion-film-marker"></i><span class="navItems">Film Select</span></a></li>
+            <li class="hideIt"><a class="item navListItem item-icon-left" href="#"><i class="icon ion-home"></i><span class="navItems">Film Home</span></a></li>
+            <li class="hideIt"><a class="item navListItem item-icon-left" href="#/filmSelect"><i class="icon ion-film-marker"></i><span class="navItems">Film Select</span></a></li>
             
-            <li><a class="item navListItem item-icon-left" href="#/twitter"><i class="icon ion-social-twitter"></i><span class="navItems">Twitter</span></a></li>
+            <li class="hideIt"><a class="item navListItem item-icon-left" href="#/twitter"><i class="icon ion-social-twitter"></i><span class="navItems">Twitter</span></a></li>
             <li><a class="item navListItem item-icon-left" href="http://thecoalwar.com/"><i class="icon ion-social-facebook"></i><span class="navItems">Facebook</span></a></li>
             
             <li><a class="item navListItem item-icon-left" href="#/about"><i class="icon ion-information"></i><span class="navItems">About App</span></a></li>
@@ -85,6 +85,10 @@
     $(document).ready(function() {
       $('#simple-menu').sidr();
     });
+    
+    $('#sidr').click(function() {
+        $("#simple-menu").simulateClick();
+        });
     
     </script>
     
