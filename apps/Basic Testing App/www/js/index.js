@@ -68,7 +68,7 @@ var app = {
     
     onDeviceReady: function() {
         console.log('deviceready');
-        
+        $("#message").html("Device Read and listening...");
         var callback = app.receivedFrequency;
         window.pitchDetection.registerFrequency( "18000", callback );
         window.pitchDetection.registerFrequency( "18100", callback );
@@ -103,6 +103,7 @@ var app = {
     },
 
     receivedFrequency: function(frequency) {
+        $("#message").html("Freq Detected");
         var chapter;
         
         
@@ -199,10 +200,13 @@ var app = {
         if (frequency == 30000) {
             chapter = 30;
         }
+        $("#message").html("Freq Detected. Load Ch: " + chapter);
+        $( "#filmSlider" ).attr( "style", "left:"+ (chapter*-100) +"%;" );
         
 	//$( "#filmSlider" ).attr( "style", "left:"+ (chapter*-100) +"%;" );
         $("a.button").simulateClick(function(){
                 console.log('clicked');
+                $("#message").html("simulateClick(): " + chapter);
                 $( "#filmSlider" ).attr( "style", "left:"+ (chapter*-100) +"%;" );
             });
     }

@@ -51,6 +51,7 @@
 		534B0126166E85BF00D1D568 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534B0125166E85BF00D1D568 /* CoreAudio.framework */; };
 		534B0128166E85C700D1D568 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534B0127166E85C700D1D568 /* Accelerate.framework */; };
 		53B68215167674AF002468B3 /* CDVPitchDetection.js in Sources */ = {isa = PBXBuildFile; fileRef = 53B68214167674AF002468B3 /* CDVPitchDetection.js */; };
+		80D7E6BC18EE0CE2003C51D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D7E6BB18EE0CE2003C51D3 /* Images.xcassets */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +126,7 @@
 		534B0125166E85BF00D1D568 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		534B0127166E85C700D1D568 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		53B68214167674AF002468B3 /* CDVPitchDetection.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CDVPitchDetection.js; path = www/js/CDVPitchDetection.js; sourceTree = "<group>"; };
+		80D7E6BB18EE0CE2003C51D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Basic_Audio_Watermarks/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Basic_Audio_Watermarks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Basic_Audio_Watermarks-Info.plist"; path = "../Basic_Audio_Watermarks-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,6 +230,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				80D7E6BB18EE0CE2003C51D3 /* Images.xcassets */,
 				30A0434214DC770100060A13 /* de.lproj */,
 				30A0434514DC770100060A13 /* se.lproj */,
 				1F766FDB13BBADB100FB74C0 /* en.lproj */,
@@ -427,6 +430,7 @@
 				1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */,
 				1F766FE213BBADB100FB74C0 /* Localizable.strings in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				80D7E6BC18EE0CE2003C51D3 /* Images.xcassets in Resources */,
 				30A0434814DC770100060A13 /* Localizable.strings in Resources */,
 				30A0434914DC770100060A13 /* Localizable.strings in Resources */,
 				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
@@ -525,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				COPY_PHASE_STRIP = NO;
@@ -545,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				COPY_PHASE_STRIP = YES;
