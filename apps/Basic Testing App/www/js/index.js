@@ -16,7 +16,7 @@ var app = {
 	    
           function() {
             $('.flicker-slider').flicker({
-                'arrows' : true,
+                'arrows' : false,
                 'auto_flick' : false,
                 'block_text' : true,
                 //'dot_alignment' : 'center',
