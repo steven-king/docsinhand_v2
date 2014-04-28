@@ -13,7 +13,7 @@
     font-weight: 300;
     line-height: 2em;
     color: #000;
-    text-align: left;;
+    text-align: left;
     height: 100%;}
 .flickerplate ul.flicks li .flick-title span.flick-block-text,.flickerplate ul.flicks li .flick-sub-text span.flick-block-text{padding:12px 18px;background-color:rgba(0,0,0,0.6)}
 .flickerplate .arrow-navigation{position:absolute;height:80%;width:10%;top:10%;z-index:100;overflow:hidden}
