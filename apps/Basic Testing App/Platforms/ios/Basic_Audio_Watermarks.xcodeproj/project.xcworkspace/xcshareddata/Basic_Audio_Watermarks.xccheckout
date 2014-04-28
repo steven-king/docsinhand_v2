@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>69C2B5D5-2611-462F-B376-92AEA1695B42</string>
+	<string>8223A17E-9742-4E61-BDD0-1010C5A64A89</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Basic_Audio_Watermarks</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>602F702F-B170-463D-BD83-635D3B0BAAE8</key>
-		<string>ssh://github.com/caseymm/docsinhand_v2.git</string>
+		<key>36D62D89-3BAB-4A47-88F3-FF68E422B730</key>
+		<string>https://github.com/steven-king/docsinhand_v2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>apps/Basic Testing App/Basic_Audio_Watermarks.xcodeproj/project.xcworkspace</string>
+	<string>apps/Basic Testing App/Platforms/ios/Basic_Audio_Watermarks.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>602F702F-B170-463D-BD83-635D3B0BAAE8</key>
-		<string>../../../..</string>
+		<key>36D62D89-3BAB-4A47-88F3-FF68E422B730</key>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/caseymm/docsinhand_v2.git</string>
+	<string>https://github.com/steven-king/docsinhand_v2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>602F702F-B170-463D-BD83-635D3B0BAAE8</string>
+	<string>36D62D89-3BAB-4A47-88F3-FF68E422B730</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>602F702F-B170-463D-BD83-635D3B0BAAE8</string>
+			<string>36D62D89-3BAB-4A47-88F3-FF68E422B730</string>
 			<key>IDESourceControlWCCName</key>
 			<string>docsinhand_v2</string>
 		</dict>
